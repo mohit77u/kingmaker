@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$gradientBorder: linear-gradient(rgba(0, 245, 255, 1),rgba(224, 2, 243, 1));
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.primarybtn{
+    background: linear-gradient(180deg, rgba(0, 245, 255, 0.4) -45%, rgba(224, 2, 243, 0.4) 100%);
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
+.banner{
+    position: relative;
+    .banner-box{
+        position: absolute;
+        top: 250px;
+        left: 200px;
+        z-index: 100;
+        width: 450px;
+        h1{
+            font-size: 80px;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+        p{
+            font-size: 17px;
+            margin: 0 0 30px 0;
+            color: white;
+        }
+        .primarybtn{
+            color: white;
+            padding: 12px 30px;
+            font-size: 13px;
+            border-radius: 50px;
+            text-transform: capitalize;
+            border-width: 1px;
+            border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+        }
+    }
+}
